@@ -1,0 +1,1 @@
+/* *@file:   main.cpp *@author: 缪庆瑞 *@date:   2016.10.10 *@brief:  主程序入口 */#include <QApplication>#include "myglwidget.h"#include <QLabel>int main(int argc,char *argv[]){    QApplication app(argc,argv);    MyGLWidget w;    w.resize(400,300);    w.show();    return app.exec();}
